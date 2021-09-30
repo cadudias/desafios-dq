@@ -1,0 +1,53 @@
+body {
+    max-width: 656px;
+    margin: 0 auto;
+    font-family: roboto, sans-serif;
+}
+
+.container { 
+    display: grid;
+    grid-template-columns: 1fr 270px;
+    grid-gap: 17px;
+    padding: 21px 25px;
+}
+
+.destaque {
+    margin: 0 auto;
+}
+
+.destaque .informacoes {
+    padding: 15px 0;
+}
+
+.destaque .informacoes h2 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.destaque .informacoes p {
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+.videos-relacionados h2 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.videos-relacionados p {
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+.video-relacionado {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.video-relacionado .informacoes {
+    padding: 0 10px;
+}
+
+.anuncio {
+    margin-bottom: 15px;
+}
